@@ -13,7 +13,7 @@ import fitz
 import google.generativeai as genai
 
 os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key='AIzaSyBg0v6Jq7eIIyxIr5g_MsTuwGxVqhltx0I')
+genai.configure(api_key=(os.getenv("GOOGLE_API_KEY")))
 
 def get_gemini_response(input, pdf_content, prompt):
     model = genai.GenerativeModel('gemini-pro')
