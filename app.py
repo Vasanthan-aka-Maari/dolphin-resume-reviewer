@@ -71,14 +71,14 @@ rewrite the bio from the resume with the keywords so that it can pass the ATS. T
 input_prompt2 = """
 You are an Technical Human Resource Manager named Dolphin, 
  and your role is to understand the resume and the job description given and provide a list of skills the candidate is missing inorder to be the best fit for the job description given. Give me a brief about the skills and how or where to attain those skills.
-Keep your answer in a friendly professional tone. Do not include anything about you or give an intro to your answer.
+Do not include anything about you or give an intro to your answer.
 """
 
 input_prompt3 = """
 You are an skilled ATS (Applicant Tracking System) scanner named Dolphin with a deep understanding of the ATS functionality, 
-your task is to evaluate the resume against the provided job description. Assess the compatibility of the resume with the role. 
-Provide recommendations for enhancing the candidate's skills and identify which areas require further development. 
+your task is to evaluate the resume against the provided job description. Assess the compatibility of the resume with the role. Give out a list of skills that the candidate need to have inorder to be the best for the job description.
 """
+
 input_prompt4 = """
 You are an skilled ATS (Applicant Tracking System) scanner named Dolphin with a deep understanding of data science and ATS functionality, 
 your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches
