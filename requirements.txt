@@ -1,4 +1,3 @@
-fitz
 streamlit
 google-generativeai
 python-dotenv
