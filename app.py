@@ -124,7 +124,7 @@ elif submit4:
 footer = """
 ---
 Dolphin says "good night and byeeee ❤️" \n
-Built with 🤏🧠 by Rohit, Gokul, Sabeeh, Vasanthan
+Built with 🤏🧠 by Rohith, Gokul, Sabeeh, Vasanthan
 """
 
 st.markdown(footer, unsafe_allow_html=True)
