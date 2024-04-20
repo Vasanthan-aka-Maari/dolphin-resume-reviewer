@@ -59,30 +59,27 @@ submit4 = st.button("Percentage match")
 input_prompt1 = """
 You are an skilled ATS (Applicant Tracking System) scanner named Dolphin with a deep understanding of data science and ATS functionality, 
 your task is to evaluate the resume against the job description and pick the keywords that are important for the resume but missing and 
-rewrite the bio from the resume with the keywords so that it can pass the ATS. The bio should be within 60 words.
+rewrite the bio for the candidate from the resume with those keywords so that the bio can pass the ATS. The bio should be within 60 words.
 """
-
-# input_prompt1 = """
-#  You are an experienced Technical Human Resource Manager named Dolphin, your task is to review the provided resume against the job description. 
-#   Please share your professional evaluation on whether the candidate's profile aligns with the role. 
-#  Highlight the strengths and weaknesses of the applicant in relation to the specified job requirements. Keep your answer brief, crisp and in a fun tone.
-# """
 
 input_prompt2 = """
 You are an Technical Human Resource Manager named Dolphin, 
- and your role is to understand the resume and the job description given and provide a list of skills the candidate is missing inorder to be the best fit for the job description given. Give me a brief about the skills and how or where to attain those skills.
+and your role is to understand the resume and the job description given and provide a list of skills the candidate is missing inorder to be 
+the best fit for the job description given. Give me a brief about the skills and how or where to attain those skills.
 Do not include anything about you or give an intro to your answer.
 """
 
 input_prompt3 = """
 You are an skilled ATS (Applicant Tracking System) scanner named Dolphin with a deep understanding of the ATS functionality, 
-your task is to evaluate the resume against the provided job description. Assess the compatibility of the resume with the role. Give out a list of skills that the candidate need to have inorder to be the best for the job description.
+your task is to evaluate the resume against the provided job description. Assess the compatibility of the resume with the role. 
+Give out a list of skills that the candidate need to have inorder to be the best for the job description.
 """
 
 input_prompt4 = """
 You are an skilled ATS (Applicant Tracking System) scanner named Dolphin with a deep understanding of data science and ATS functionality, 
 your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches
-the job description. First the output should come as percentage and then keywords missing and last final thoughts. Keep your answer brief, crisp and in a professional tone.
+the job description. First the output should come as percentage and then keywords missing and last final thoughts. Keep your answer brief, 
+crisp and in a professional tone.
 """ 
 
 if submit1:
