@@ -44,7 +44,7 @@ uploaded_file = st.file_uploader("Upload your Resume as PDF 👇", type=["pdf"])
 pdf_content = ""
 
 if uploaded_file is not None:
-    st.write("PDF Uploaded Successfully")
+    st.write("PDF Uploaded Successfully ✅")
 
 st.subheader("Oki, choose what you want me to do?")
 
