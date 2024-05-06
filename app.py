@@ -37,7 +37,7 @@ def input_pdf_setup(uploaded_file):
 st.set_page_config(page_title="Dolphin Reviewer", page_icon="dolphin", layout="wide")
 
 st.header("Dolphin Reviewer 🐬")
-st.text("Generally dolphins are smart but I'm smarter 😏. I know 18+3 is 59. ~ Dolphin (🐬)")
+st.text("Dolphin is a resume reviewer tool built to help you improve your resume. For now, the options are limited. (team dolphin is working on more features...)")
 input_text = st.text_input("Job Description: ", key="input")
 uploaded_file = st.file_uploader("Upload your Resume as PDF 👇", type=["pdf"])
 pdf_content = ""
